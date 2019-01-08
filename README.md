@@ -29,7 +29,7 @@ console.log (add3List ([1,2,3])) // Prints [4,5,6]
 ```
 
 As you can see, I was able to compose `add (1)` and `add (2)` into a new function
-that first added `1`, then `2`, just by writing `add (1) . add (2)`. How convenient!
+that first added `1` and then `2` to some number, just by writing `add (1) . add (2)`. How convenient!
 
 The `id` function didn't really do anything, but you can imagine it was something
 a bit more exciting, like `sum`.
