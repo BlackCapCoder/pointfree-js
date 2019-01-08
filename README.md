@@ -6,8 +6,8 @@ This is an implementation of pointfree notation and partial application in javas
 ### Usage
 
 The library only exposes a single function named `pf`. The `pf` function
-takes one or more context and returns a proxy of that context in which pointfree
-notation magically works.
+takes one or more contexts and returns a proxy for that/those contexts in which pointfree
+notation and partial appliance magically works.
 
 It is indented to be used with a `with` block- example:
 
