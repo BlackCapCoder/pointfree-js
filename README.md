@@ -78,3 +78,13 @@ with (pf (global, Math)) {
 The first argument will always be the scope we write to, so in the above
 example, `pow2` will be a function in `global`, not `Math`.
 
+
+### Performance
+
+If you partially apply a function of arity `2` or higher you have to pay for that. That is, a function
+that is implemented like `add2 = (x,y) => x+y`, but not `add2 = x => y => x+y`. This is not a technical
+limitation, but I didn't want to write separate functions for each arity.
+
+
+In all other cases, once a function is defined it has no overhead from `pf`.
+
