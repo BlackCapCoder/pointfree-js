@@ -1,6 +1,6 @@
 # pointfree-js
 
-This is an implementation of pointfree notation in javascript.
+This is an implementation of pointfree notation and partial application in javascript.
 
 
 ### Usage
